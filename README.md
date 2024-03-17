@@ -1,0 +1,1 @@
+Hello, this is my first project personal and assignment in college using only HTML and CSS. The project focuses on creating a login and ranking interface. This project allowed me to gain practical experience in web development fundamentals and further develop my skills in front-end technologies.
