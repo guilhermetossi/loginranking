@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body { 
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'JetBrains', sans-serif;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+header h1 {
+    margin: auto;
+}   
+
+.ranking {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rankingjogador, .rankingtimes{
+    
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        padding: 0px 35px;
+        margin: 1;
+        border: 1px solid white;
+        border-radius: 10px;
+}
+
+
+.rankingjogador h1{
+    
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+.logo img  {
+    width: 13px;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    font-family: 'Mont', sans-serif;
+
+}
+
+th, td {
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    background-color:#2151B8;
+}
+
+tbody tr, table {
+    background-color: white;
+    border-radius: 1px;
+    border: 1px solid rgb(14, 29, 71);
+}
+
+th {
+    text-align: left;
+}
+
+thead th {
+    font-size: medium;
+    text-align: left;
+    color: black;
+    background-color: #ffffffb7;
+}
+
+tbody tr:hover {
+    background-color: #B8B8B8;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.rankingtimes h1{
+    margin-left: 10px;
+}
+
